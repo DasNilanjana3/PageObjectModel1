@@ -27,3 +27,4 @@ test('Adding Product Test', async t => {
 
 }) });
 //testcafe chrome tests/LogInTest.js -s takeOnFails=true -e
+//new modification
