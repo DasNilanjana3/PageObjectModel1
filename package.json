@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "nilanjana",
+  "license": "ISC",
   "scripts": {
     "test": "testcafe"
   },
-  "author": "nilanjana",
-  "license": "ISC",
+  
   "devDependencies": {
     "cucumber": "^6.0.5",
     "testcafe-reporter-nunit": "^0.1.2"

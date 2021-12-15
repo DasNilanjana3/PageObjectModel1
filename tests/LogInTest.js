@@ -4,11 +4,11 @@ import LogInEmailPage from '../pages/LogInEmailPage old';
 import LogInPasswordPage from '../pages/LogInPasswordPage old';
 const dataSet = require('../data/data.json');
 const URL = 'https://www.amazon.com/';
-const getURL = ClientFunction(() => window.location.href);
+//const getURL = ClientFunction(() => window.location.href);
 fixture ("OrderProduct")
     .page (URL);
 dataSet.forEach( data => {
-test('Adding Product Test', async t => {
+test('Login to Amazon Test', async t => {
     await t
     //.expect(getURL).eql(URL)
     .takeScreenshot()
